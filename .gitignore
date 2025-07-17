@@ -1,0 +1,13 @@
+# Ignore Mac/Windows/Linux system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# WordPress uploads and config (only if you add the full site)
+wp-content/uploads/
+wp-config.php
+
+# Temporary files
+*.log
+*.bak
+*.tmp
