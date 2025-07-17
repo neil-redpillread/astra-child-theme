@@ -1,0 +1,54 @@
+/*
+ Theme Name:   Astra Child
+ Template:     astra
+ Version:      1.0.0
+*/
+
+
+  /* Add your custom CSS below */
+  header .custom-logo-link img {
+	max-width: 80px;
+	height: auto;
+}
+.main-header-bar .main-header-menu .menu-item {
+  margin: 0 1.5rem; 
+}
+body.home .main-header-bar {
+  background-color: transparent !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  box-shadow: none !important; 
+}
+body.home .main-header-bar.sticky-header {
+  background-color: transparent !important;
+}
+body.home .site-content > .ast-container {
+  padding-top: 80px !important;
+}
+.main-header-bar,
+.main-header-bar.sticky-header {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+@media (max-width: 921px) {
+	.ast-builder-menu-mobile 
+  .main-navigation 
+  .main-header-menu {
+    top:    0 !important;
+    bottom: 0 !important;
+    height: auto !important;
+    max-height: 100vh !important;
+    overflow-y: auto !important;
+  }
+body.home 
+  .ast-builder-menu-mobile 
+  .main-navigation 
+  .main-header-menu {
+    top: 82px !important;                         
+    max-height: calc(100vh - 82px) !important;    
+  }
+}
+
