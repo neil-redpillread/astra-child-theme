@@ -13,7 +13,7 @@ get_header();
 
       <!-- Right: Text + CTA -->
       <div class="hero-text">
-        <h1>Professional SEO Services for Small Businesses.</h1>
+        <h1>Professional SEO Services for<br>Small Businesses.</h1>
         <p class="subheading">From SEO audits and on-page SEO to technical SEO and digital PR — expert services at cheap prices.</p>
         <a href="#contact" class="cta-button">Book a consultation</a>
       </div>
