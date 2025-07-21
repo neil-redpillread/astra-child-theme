@@ -59,21 +59,25 @@ body.home
 
 .hero-content {
   display: flex;
-  flex-direction: row;
-  gap: 3rem;
-  align-items: center;
-  justify-content: center;
-  max-width: 1200px;
-  margin: auto;
-  flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; /* makes video left, text right */
+    gap: 2rem; /* balanced spacing */
+    flex-wrap: wrap;
 }
-
+.video-wrapper {
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 8px;
+}
 .video-wrapper iframe {
-  width: 100%;
-  max-width: 500px;
-  height: 280px;
-  border: none;
-  border-radius: 8px;
+width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
 }
 
 .text-content {
