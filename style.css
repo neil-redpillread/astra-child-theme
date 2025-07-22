@@ -58,30 +58,37 @@ body.home
 }
 
 .hero-content {
-  display: flex;
+   display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between; /* makes video left, text right */
-    gap: 12rem; /* balanced spacing */
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 12rem; 
     flex-wrap: wrap;
 }
 .video-wrapper {
     width: 100%;
     max-width: 500px;
     aspect-ratio: 16 / 9;
+    margin-top: -40px;
     overflow: hidden;
     border-radius: 8px;
 }
 .video-wrapper iframe {
-width: 100%;
+  width: 100%;
     height: 100%;
     border: none;
     display: block;
 }
-}
 
 .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
   max-width: 600px;
+   min-width: 300px;
 }
 
 .text-content h1 {
@@ -106,10 +113,12 @@ width: 100%;
   text-decoration: none;
   border-radius: 25px;
   transition: background 0.3s ease;
+   margin-left: -30px;
 }
 
 .cta-button:hover {
   background-color: #cc0000;
+  color: white;
 }
 
 
