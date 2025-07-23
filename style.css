@@ -132,8 +132,10 @@ body.home
   }
   .hero-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
     gap: 3.5rem;
      margin: 0 !important;
