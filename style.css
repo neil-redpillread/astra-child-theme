@@ -162,6 +162,33 @@ body.home
     margin-left: 0.1rem;
   }
 }
-
+@media (min-width: 1024px) {
+  .hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 2rem 4rem;
+    align-items: start;
+  }
+  .video-wrapper {
+    grid-column: 1 / 2;
+    grid-row: 1 / span 2; /* spans both text rows */
+    max-width: 100%;
+    aspect-ratio: 16/9;
+  }
+    .hero-content h1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    text-align: left;
+  }
+   .text-content {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    text-align: left;
+  }
+    .cta-button {
+    margin-top: 1.25rem;
+  }
+}
 
 
