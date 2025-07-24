@@ -223,7 +223,7 @@ body.home
   .hero-content .text-content {
     animation: slideInFromRight 0.8s ease-out forwards;
   }
- .hero-content .text-content {
+   .hero-content .text-content {
     animation-delay: 0.1s;
   }
 }
@@ -232,5 +232,8 @@ body.home
 .hero-content .text-content {
   will-change: transform, opacity;
 }
+
+
+  
 
 
