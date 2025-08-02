@@ -666,7 +666,10 @@ body.home
     padding-top: 0;       
     height: 200px;        
     max-width: 100%;      
-    margin-top: 0;  
+    margin-top: 0;
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: slideInFromLeft 0.8s ease-out forwards;   
   }
    .portfolio-hero-section .video-wrapper iframe {
     position: static; 
@@ -681,6 +684,33 @@ body.home
     margin: 4rem auto;
     padding: 0 1rem;
     max-width: 480px;
+}
+ .portfolio-hero-section .portfolio-hero-content > h1 {
+  margin: 0; 
+  opacity: 0;
+  transform: translateX(50px);
+  animation: slideInFromRight 0.8s ease-out forwards;
+  animation-delay: 0.2s;
+  } 
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 }
 
