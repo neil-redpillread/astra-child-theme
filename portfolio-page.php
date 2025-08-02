@@ -4,7 +4,6 @@ Template Name: Portfolio Page
 */
 get_header();
 ?>
-<div class="my-fullwidth-wrapper">
 <section class="portfolio-hero-section">
     <div class="portfolio-hero-content">
       <h1>Your Personal SEO Specialist</h1>
@@ -19,5 +18,4 @@ get_header();
       </div>
     </div>
   </section>
-  </div>
 <?php get_footer(); ?>
