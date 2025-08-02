@@ -691,7 +691,14 @@ body.home
   transform: translateX(50px);
   animation: slideInFromRight 0.8s ease-out forwards;
   animation-delay: 0.2s;
-  } 
+  }
+ .portfolio-hero-section .text-content {
+  opacity: 0;
+  transform: translateX(50px);
+  animation: slideInFromRight 0.8s ease-out forwards;
+  animation-delay: 0.3s;              
+}
+
 @keyframes slideInFromLeft {
   from {
     opacity: 0;
