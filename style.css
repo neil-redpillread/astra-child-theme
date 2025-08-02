@@ -524,7 +524,7 @@ body.home
 @media (min-width: 768px) {
   .portfolio-hero-section .portfolio-hero-content {
     display: grid;
-    grid-template-columns: minmax(0, 660px) 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     gap: 2rem;
     align-items: start;     
@@ -537,7 +537,7 @@ body.home
     width: 100%;
     aspect-ratio: 16 / 9;
     margin-top: 2.5rem;
-    margin-left: 6rem;
+    margin-left: 0.1rem;
     align-self: center;
     border-radius: 10px;
     overflow: hidden;
@@ -607,7 +607,7 @@ body.home
 }
 @media (min-width: 992px) {
   .portfolio-hero-section {
-     padding-top: 120px;
+     padding-top: 10px;
   }
 .portfolio-hero-container {
  display: flex;
