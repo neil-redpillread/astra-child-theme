@@ -343,15 +343,11 @@ body.home
   }
 
   .video-wrapper {
-
     grid-column: 1 / 2;
-
     grid-row: 1 / span 2; /* spans both text rows */
-
     max-width: 100%;
-
     aspect-ratio: 16/9;
-
+    margin-top: 1rem;
   }
 
     .hero-content h1 {
