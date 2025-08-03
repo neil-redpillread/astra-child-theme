@@ -506,7 +506,7 @@ body.home
   color: #fff;
   border-radius: 25px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
 }
 .portfolio-hero-section .cta-button:hover {
   background-color: #cc0000;
