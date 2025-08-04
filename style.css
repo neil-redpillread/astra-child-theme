@@ -729,6 +729,13 @@ body.home
 .portfolio-clients-carousel .swiper-button-prev {
   color: #f1eded;
 }
+.portfolio-clients-carousel .swiper-slide {
+    flex-shrink: 0;
+    width: 500px !important;
+    height: 500px;
+    position: relative;
+    transition-property: transform;
+}
 
 
 
