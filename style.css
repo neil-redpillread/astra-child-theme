@@ -716,7 +716,19 @@ body.home
     transform: translateX(0);
   }
 }
-
+.portfolio-clients-carousel {
+  margin: 4rem 0;
+}
+.case-study-card {
+  background: #6b6868;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+}
+.portfolio-clients-carousel .swiper-button-next,
+.portfolio-clients-carousel .swiper-button-prev {
+  color: #f1eded;
+}
 
 
 
