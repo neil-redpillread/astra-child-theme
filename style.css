@@ -720,10 +720,10 @@ body.home
   margin: 4rem 0;
 }
 .case-study-card {
-  background: #6b6868;
+  background: #ffffff;
   border-radius: 12px;
   padding: 2rem;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+  box-shadow: 1px 0px 16px 13px rgba(0, 0, 0, 0.05);
 }
 .portfolio-clients-carousel .swiper-button-next,
 .portfolio-clients-carousel .swiper-button-prev {
@@ -736,6 +736,10 @@ body.home
     position: relative;
     transition-property: transform;
 }
+.portfolio-clients-carousel .swiper {
+padding: 4rem;
+}
+ 
 
 
 
