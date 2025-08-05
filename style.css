@@ -745,7 +745,14 @@ padding: 4rem;
 margin-bottom: 0;
 font-size: 50px;
 }
-
+.case-study-logo{
+  width: 150px;
+  float: right;
+}
+.case-title {
+  font-size: 30px;
+  margin-top: 0;
+}
 
 
 
