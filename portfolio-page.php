@@ -8,7 +8,7 @@ get_header();
     <div class="portfolio-hero-content">
       <h1>Your Personal SEO Specialist</h1>
       <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/O7il3R-scF4" title="YouTube video" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/O7il3R-scF4" title="YouTubeVideo" allowfullscreen></iframe>
       </div>
       <div class="text-content">
         <p>
